@@ -1,0 +1,63 @@
+/*Importa a fonte do google (muda o estilo da letra)*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/*Aplica o "reset do css" e a fonte globalmente*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/*Aplica estilização padrão para centralizar*/
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7dede;
+
+}
+
+/*Estiliza o card*/
+.container{
+    display:flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: fit-content;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.75);
+ }
+
+ /*Cabeçalho do card que contém o título*/
+.header{
+    height: 95px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+/*Estiliza o corpo do card (de baixo do heading)*/
+.form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border:1px solid rgba(171, 171, 171, 1);
+}
+
+/*Estiliza os campos input (botão e data)*/
+.input{
+    margin: 5px;
+    width: 100px;
+    margin:5px auto;
+}
+
+/*Estiliza o campo de comentário de cima do input de data*/
+.dataNasc{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

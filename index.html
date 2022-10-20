@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title translate="no">Signos</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+    <section class="header">
+      <h1>Descubra seu signo!</h1>
+    </section>
+    <section class="main">
+      <!-- Form contém o método post para enviar a action definida abaixo -->
+      <form class="form" method="post" action="./SecondPage.php">
+          <label for="dataNasc" class="dataNasc">
+            Selecione sua data de nascimento
+          </label>
+          <input class="input" id="dataNasc" type="date" name="data" />
+        <input class="input" type="submit" value="Buscar" />
+      </form>
+    </section>
+    </div>
+  </body>
+</html>
